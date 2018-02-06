@@ -21,7 +21,7 @@
     "url": "https://github.com/Talv/plaxtony.git"
   },
   "scripts": {
-    "clean": "rm -rf lib/*",
+    "clean": "rimraf lib/*",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "test": "mocha --opts mocha.opts",
@@ -49,16 +49,17 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "@types/chai": "^4.0.1",
-    "@types/glob": "^5.0.32",
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^8.0.25",
-    "@types/xml2js": "^0.4.0",
-    "chai": "^4.1.0",
+    "@types/chai": "^4.1.2",
+    "@types/glob": "^5.0.35",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^8.5.9",
+    "@types/xml2js": "^0.4.2",
+    "chai": "^4.1.2",
     "mocha": "^3.5.3",
-    "nyc": "^11.2.1",
-    "source-map-support": "^0.5.0",
+    "nyc": "^11.4.1",
+    "rimraf": "^2.6.2",
+    "source-map-support": "^0.5.3",
     "ts-node": "^3.3.0",
-    "typescript": "^2.6.2"
+    "typescript": "^2.7.1"
   }
 }
